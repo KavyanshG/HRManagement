@@ -1,0 +1,21 @@
+.LoginImage{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../public/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+
+/* Autofill styles for email input */
+input#loginEmailId,#loginPasswordId:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #A2D6FE inset !important;
+  box-shadow: 0 0 0px 1000px #A2D6FE inset !important;
+  -webkit-text-fill-color: #000 !important;
+  caret-color: auto !important;
+}
+
